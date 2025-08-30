@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useProductStore } from "../store/useProductStore";
+import { useProductStore } from "../store/UseProductStore";
 import { PackageIcon, PlusCircleIcon, RefreshCwIcon } from "lucide-react";
 import ProductCard from "../component/ProductCard";
 import AddProductModal from "../component/AddProductModal";

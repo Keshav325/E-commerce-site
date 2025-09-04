@@ -3,7 +3,7 @@ import { Routes,Route } from "react-router-dom";
 import Navbar from "./component/Navbar";
 import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
-import { useThemeStore } from "./store/useThemeStore";
+import { useThemeStore } from "./store/UseThemeStore";
 
 function App() {
  const {theme} = useThemeStore();
